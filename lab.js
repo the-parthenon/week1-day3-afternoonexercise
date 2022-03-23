@@ -84,33 +84,33 @@ let rain = false;
 
 //CODE HERE
 
-if(temperature >= 80 && rain === true){
-  console.log("You should wear a t-shirt and carry an umbrella.")
-}
+// if(temperature >= 80 && rain === true){
+//   console.log("You should wear a t-shirt and carry an umbrella.")
+// }
 
-else if(temperature >= 60 && temperature < 80 && rain === true){
-  console.log("Go ahead and wear a rain jacket.")
-}
+// else if(temperature >= 60 && temperature < 80 && rain === true){
+//   console.log("Go ahead and wear a rain jacket.")
+// }
 
-else if(temperature < 60 && rain === true){
-  console.log("Wear a warm coat and carry an umbrella.")
-}
-if(temperature >= 80 && rain === false){
-  console.log("You should wear a t-shirt.")
-}
+// else if(temperature < 60 && rain === true){
+//   console.log("Wear a warm coat and carry an umbrella.")
+// }
+// if(temperature >= 80 && rain === false){
+//   console.log("You should wear a t-shirt.")
+// }
 
-else if(temperature >= 60 && temperature < 80 && rain === false){
-  console.log("Go ahead and wear long sleeves?")
-}
+// else if(temperature >= 60 && temperature < 80 && rain === false){
+//   console.log("Go ahead and wear long sleeves?")
+// }
 
-else if(temperature < 60 && rain === false){
-  console.log("Wear a warm coat and fur-lined gloves.")
-}
-else {
+// else if(temperature < 60 && rain === false){
+//   console.log("Wear a warm coat and fur-lined gloves.")
+// }
+// else {
 
-  console.log("Unable to determine if you are still experiencing Earth weather.  Maybe a space suit?")
+//   console.log("Unable to determine if you are still experiencing Earth weather.  Maybe a space suit?")
 
-}
+// }
 ////////// PROBLEM 5 //////////
 
 /*
@@ -118,6 +118,12 @@ else {
 */
 
 //CODE HERE
+
+for (let i = 0; i < 10; i++){
+
+  console.log ((i + 1), "Hello!")
+
+}
 
 ////////// PROBLEM 6 //////////
 
