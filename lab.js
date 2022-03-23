@@ -119,11 +119,11 @@ let rain = false;
 
 //CODE HERE
 
-for (let i = 0; i < 10; i++){
+// for (let i = 0; i < 10; i++){
 
-  console.log ((i + 1), "Hello!")
+//   console.log ((i + 1), "Hello!")
 
-}
+// }
 
 ////////// PROBLEM 6 //////////
 
@@ -134,6 +134,12 @@ for (let i = 0; i < 10; i++){
 
 //CODE HERE
 
+// for (let i = 0; i < 10; i++){
+
+//   console.log (i + 1,)
+
+// }
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -142,6 +148,12 @@ for (let i = 0; i < 10; i++){
 */
 
 //CODE HERE
+
+for(let i = 10; i > -1; i--){
+
+  console.log (i);
+
+}
 
 
 ////////// PROBLEM 8 //////////
