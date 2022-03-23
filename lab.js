@@ -59,19 +59,19 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
-if (amysBirthYear === brittanisBirthYear){
+// if (amysBirthYear === brittanisBirthYear){
 
-  console.log("Amy & Brittani were born in the same year");
-}
-else{
+//   console.log("Amy & Brittani were born in the same year");
+// }
+// else{
 
-  console.log("Amy & Brittani were not born in the same year");
+//   console.log("Amy & Brittani were not born in the same year");
 
-}
+// }
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
-let rain = true;
+let temperature = 85;
+let rain = false;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type 
@@ -84,6 +84,33 @@ let rain = true;
 
 //CODE HERE
 
+if(temperature >= 80 && rain === true){
+  console.log("You should wear a t-shirt and carry an umbrella.")
+}
+
+else if(temperature >= 60 && temperature < 80 && rain === true){
+  console.log("Go ahead and wear a rain jacket.")
+}
+
+else if(temperature < 60 && rain === true){
+  console.log("Wear a warm coat and carry an umbrella.")
+}
+if(temperature >= 80 && rain === false){
+  console.log("You should wear a t-shirt.")
+}
+
+else if(temperature >= 60 && temperature < 80 && rain === false){
+  console.log("Go ahead and wear long sleeves?")
+}
+
+else if(temperature < 60 && rain === false){
+  console.log("Wear a warm coat and fur-lined gloves.")
+}
+else {
+
+  console.log("Unable to determine if you are still experiencing Earth weather.  Maybe a space suit?")
+
+}
 ////////// PROBLEM 5 //////////
 
 /*
