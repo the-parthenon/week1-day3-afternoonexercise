@@ -189,29 +189,29 @@ let passingScore = 7;
 
 //CODE HERE
 
-let changeMyMind = true;
-console.log(changeMyMind);
+// let changeMyMind = true;
+// console.log(changeMyMind);
 
-if(changeMyMind === true){
+// if(changeMyMind === true){
 
-  changeMyMind = false;
-  console.log(changeMyMind)
-  }
-else if(changeMyMind === false){
+//   changeMyMind = false;
+//   console.log(changeMyMind)
+//   }
+// else if(changeMyMind === false){
 
-  changeMyMind = true;
-  console.log(changeMyMind)
+//   changeMyMind = true;
+//   console.log(changeMyMind)
 
-}
-else{console.log("My mind cannot be known.")}
+// }
+// else{console.log("My mind cannot be known.")}
 
-////////// PROBLEM 10 //////////
-// Using the "not" operator (!), change the current value of changeMyMind to true 
-// (it should currently be set to false due to the if-else statement in Problem 9). 
-// After you change the value of changeMyMind, console.log it's new value (it should now read true).
+// ////////// PROBLEM 10 //////////
+// // Using the "not" operator (!), change the current value of changeMyMind to true 
+// // (it should currently be set to false due to the if-else statement in Problem 9). 
+// // After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
-changeMyMind = !changeMyMind;
-console.log(changeMyMind);
+// changeMyMind = !changeMyMind;
+// console.log(changeMyMind);
 
 //CODE HERE
 
@@ -226,3 +226,11 @@ make sure you decrement z by 1. If your code is running properly, you should see
 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.*/
 
 //CODE HERE
+while(z > 0){
+
+  for(let i = z; i > 0; i--){
+
+    console.log(i);
+  }
+z--
+}
