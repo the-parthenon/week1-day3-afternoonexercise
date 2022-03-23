@@ -8,20 +8,20 @@
 
 //CODE HERE
 
-let lovesCode = false;
+// let lovesCode = false;
 
-if (lovesCode === true){
-  console.log("I love to code!")
-}
-else {
+// if (lovesCode === true){
+//   console.log("I love to code!")
+// }
+// else {
 
-  console.log("Coding has its challenges.")
+//   console.log("Coding has its challenges.")
 
-}
+// }
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
-var brittanisAge = 34;
+var brittanisAge = 29;
 var amysBirthYear = 1991;
 var brittanisBirthYear = 1986;
 
@@ -34,6 +34,20 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+
+let olderperson
+
+if (amysAge > brittanisAge){
+
+  olderperson = "Amy";
+  console.log(`${olderperson} is older.`)
+  
+} else if(amysAge < brittanisAge){
+  
+  olderperson = "Brittani";
+  console.log(`${olderperson} is older.`)
+
+} else(console.log("Amy and Brittani are the same age!"))
 
 ////////// PROBLEM 3 //////////
 
