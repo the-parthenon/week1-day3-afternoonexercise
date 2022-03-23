@@ -22,7 +22,7 @@
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
 var brittanisAge = 29;
-var amysBirthYear = 1991;
+var amysBirthYear = 1986;
 var brittanisBirthYear = 1986;
 
 ////////// PROBLEM 2 //////////
@@ -35,19 +35,19 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
-let olderperson
+// let olderperson
 
-if (amysAge > brittanisAge){
+// if (amysAge > brittanisAge){
 
-  olderperson = "Amy";
-  console.log(`${olderperson} is older.`)
+//   olderperson = "Amy";
+//   console.log(`${olderperson} is older.`)
   
-} else if(amysAge < brittanisAge){
+// } else if(amysAge < brittanisAge){
   
-  olderperson = "Brittani";
-  console.log(`${olderperson} is older.`)
+//   olderperson = "Brittani";
+//   console.log(`${olderperson} is older.`)
 
-} else(console.log("Amy and Brittani are the same age!"))
+// } else(console.log("Amy and Brittani are the same age!"))
 
 ////////// PROBLEM 3 //////////
 
@@ -59,6 +59,15 @@ if (amysAge > brittanisAge){
 
 //CODE HERE
 
+if (amysBirthYear === brittanisBirthYear){
+
+  console.log("Amy & Brittani were born in the same year");
+}
+else{
+
+  console.log("Amy & Brittani were not born in the same year");
+
+}
 ////////// PROBLEM 4 //////////
 
 let temperature = 55;
